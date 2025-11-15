@@ -1,5 +1,5 @@
 function getUserScim() {
-  var token = '<YOUR>-API-Key';
+  var token = '<YOUR>-API-Token';
   var url = 'https://platform-cloud.8x8.com/udi/customers/<YOUR>-Customer-ID/scim/v2';
   var urlParams = url + '/Users?startIndex=1&count=100';
 
